@@ -1,19 +1,23 @@
-
+let showNumber;
 for (let i=1; i<=100; i++) {
     
-    if (!(i % 3)){
+    if (!(i % 15)){
         
-        showNumber= 'Fizz'    
-        console.log(showNumber);
+        showNumber= 'FizzBuzz';    
+        
     } else if (!(i % 5)){
     
-        showNumber= 'Buzz'    
-        console.log(showNumber);  
+        showNumber= 'Buzz';    
+  
+    } else if (!(i % 3)){
+    
+        showNumber= 'Buzz';    
+
     } else{
-        showNumber = i
-        console.log(showNumber);
+        showNumber = i;
+
         
     }
     
+    console.log(showNumber)
 }
-
